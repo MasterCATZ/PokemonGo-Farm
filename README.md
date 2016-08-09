@@ -51,12 +51,15 @@ Install Bower
 Install dependencies
 
 `bower install`
+`composer install`
+`sudo apt install php-xml` 
 
+`sudo ln -s /usr/bin/nodejs /usr/bin/node`
 ---
 
 Copy and past your `parameters.json`
 
-`cp app/parameters.json.dist app/parameters.json`
+`cp app/config/parameters.json.dist app/config/parameters.json`
 
 ##Run ⚡️
 `php -S 127.0.0.1:8080 -t web`
